@@ -1,8 +1,10 @@
 <resources>
+
     <string name="app_name">ICookProject</string>
-    <string name="app_TextLogin">Username</string>
-    <string name="app_TextPassword">Password</string>
-    <string name="app_TextLog">LOG IN</string>
+    <string name="app_HintUsername">Username</string>
+    <string name="app_HintPassword">Password</string>
+    <string name="app_ButtonTextLog">LOG IN</string>
     <string name="app_ContentDescription">Logo</string>
+
 </resources>
 
