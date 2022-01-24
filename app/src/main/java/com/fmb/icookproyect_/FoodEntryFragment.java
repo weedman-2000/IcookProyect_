@@ -47,6 +47,11 @@ public class FoodEntryFragment extends Fragment
 
         //recyclerView.addItemDecoration(new FoodGridItemDecoration());
 
+        int largePadding = getResources().getDimensionPixelSize(R.dimen.food_grid_spacing);
+        int smallPadding = getResources().getDimensionPixelSize(R.dimen.food_grid_spacing_small);
+
+        recyclerView.addItemDecoration(new FoodGridItemDecoration(largePadding, smallPadding));
+
 
         return view;
     }

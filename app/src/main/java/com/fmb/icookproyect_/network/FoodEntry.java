@@ -24,7 +24,7 @@ public class FoodEntry
     private static final String TAG = FoodEntry.class.getSimpleName();
     public final String title;
     public final Uri     dynamicUrl;
-    public final String Url;
+    public final String Url; //arreglar este error
     public final String type;
 
     public FoodEntry(String title, String dynamicUrl, String url, String type) {
