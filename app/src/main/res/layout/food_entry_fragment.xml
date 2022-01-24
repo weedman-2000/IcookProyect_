@@ -24,6 +24,7 @@
             app:navigationIcon="@drawable/list_2"
             app:title="@string/app_name"
 
+
             style="@style/Widget.ICookP.Toolbar"
 
             />
@@ -60,7 +61,7 @@
                 android:padding="1dp"
                 android:text="@string/meal_name"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-                
+
                 />
             <TextView
                 android:layout_width="match_parent"

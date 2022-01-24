@@ -1,0 +1,22 @@
+[
+  {
+    "title":"Lasagna",
+    "url":"https://image.freepik.com/foto-gratis/lasana-clasica-salsa-bolonesa_2829-11251.jpg",
+    "type": "Pasta"
+  },
+  {
+    "title":"Sauteed Loin",
+    "url":"https://image.freepik.com/foto-gratis/comida-peruana-lomo-saltado-carne-salada-tomate-cebolla-papas-fritas-arroz_136960-378.jpg",
+    "type": "Creole"
+  },
+  {
+    "title":"Ceviche",
+    "url":"https://image.freepik.com/foto-gratis/ceviche-mariscos-closeup-plato-tipico-peru_136960-376.jpg",
+    "type": "Seafood"
+  },
+  {
+    "title":"Fries Huancaina",
+    "url":"https://image.freepik.com/foto-gratis/papa-tradicional-peruano-huancaina_123827-14652.jpg",
+    "type": "Northern food"
+  }
+]
