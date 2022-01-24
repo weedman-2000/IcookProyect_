@@ -11,6 +11,9 @@
 
     <color name="ToolbarBackgroundColor">#485437</color>
     <color name="LoginBackgroundColor">#ded9d3</color>
+    <color name="lightGrayishOrange">#ded9d3</color>
     <color name="TextTitleColor">#5e473f</color>
+    <color name="lightGrayishRed">#928C8B</color>
+
 
 </resources>

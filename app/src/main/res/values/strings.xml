@@ -6,6 +6,9 @@
     <string name="app_ButtonTextLog">LOG IN</string>
     <string name="app_ContentDescription">Logo</string>
     <string name="error_password">Enter at least 6 characters !</string>
+    <string name="meal_name">Name</string>
+    <string name="meal_description">Description</string>
+
 
 </resources>
 
