@@ -11,6 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.fmb.icookproyect_.network.FoodEntry;
 
 public class FoodEntryFragment extends Fragment
 {
@@ -31,6 +35,19 @@ public class FoodEntryFragment extends Fragment
         View view = inflater.inflate(R.layout.food_entry_fragment, container, false);
 
         setUpToolBar(view);
+
+        RecyclerView recyclerView    = view.findViewById(R.id.recycler_view);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new GridLayoutManager(getContext(),2,GridLayoutManager.VERTICAL,false));
+        FoodCardRecyclerViewAdapter adapter = new FoodCardRecyclerViewAdapter
+                (
+                        FoodEntry.initFoodEntryList(getResources())
+                );
+        recyclerView.setAdapter(adapter);
+
+        //recyclerView.addItemDecoration(new FoodGridItemDecoration());
+
+
         return view;
     }
 

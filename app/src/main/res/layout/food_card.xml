@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    app:cardBackgroundColor="@color/lightGrayishOrange"
+    app:cardBackgroundColor="@color/lightGrayishRed"
     app:cardElevation="2dp"
     app:cardPreventCornerOverlap="true"
 
@@ -23,10 +23,11 @@
             android:id="@+id/food_image"
             android:layout_width="match_parent"
             android:layout_height="108dp"
-            android:background="@color/lightGrayishRed"
+            android:background="@color/lightGrayishOrange"
             android:scaleType="centerCrop"
 
             />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,6 +45,7 @@
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
 
                 />
+
             <TextView
                 android:id="@+id/food_description"
                 android:layout_width="match_parent"
