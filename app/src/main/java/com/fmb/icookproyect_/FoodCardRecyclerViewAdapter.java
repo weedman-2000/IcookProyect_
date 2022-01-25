@@ -42,7 +42,7 @@ public class FoodCardRecyclerViewAdapter extends RecyclerView.Adapter<FoodCardVi
             FoodEntry food = foodList.get(position);
             holder.foodName.setText(food.title);
             holder.foodDescription.setText(food.type);
-            imageRequest.setImageLoader(holder.foodImage, food.Url);
+            imageRequest.setImageLoader(holder.foodImage, food.url);
         }
     }
 

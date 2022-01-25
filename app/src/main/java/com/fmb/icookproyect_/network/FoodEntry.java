@@ -24,13 +24,13 @@ public class FoodEntry
     private static final String TAG = FoodEntry.class.getSimpleName();
     public final String title;
     public final Uri     dynamicUrl;
-    public final String Url; //arreglar este error
+    public final String url; //arreglar este error
     public final String type;
 
     public FoodEntry(String title, String dynamicUrl, String url, String type) {
         this.title = title;
         this.dynamicUrl = Uri.parse(dynamicUrl);
-        Url = url;
+        this.url = url;
         this.type = type;
     }
 
